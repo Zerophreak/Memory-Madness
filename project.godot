@@ -11,12 +11,29 @@ config_version=5
 [application]
 
 config/name="Memory Madness"
-config/features=PackedStringArray("4.4", "Mobile")
+run/main_scene="uid://d2v8cob0ovju"
+config/features=PackedStringArray("4.4", "C#", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SignalHub="*res://Globals/SignalHub.cs"
+ImageManager="*res://Globals/ImageManager.cs"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=768
+window/stretch/mode="canvas_items"
 
 [dotnet]
 
 project/assembly_name="Memory Madness"
+
+[editor]
+
+naming/scene_name_casing=1
+naming/script_name_casing=1
 
 [rendering]
 
