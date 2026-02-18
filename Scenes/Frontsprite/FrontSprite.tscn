@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://di01vd2t7jio1"]
+
+[ext_resource type="Texture2D" uid="uid://ofko8674mlso" path="res://Assets/glitch/cabbage.png" id="1_5wing"]
+
+[node name="FrontSprite" type="TextureRect"]
+texture = ExtResource("1_5wing")

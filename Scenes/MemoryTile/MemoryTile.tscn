@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b72c4y8n6htsl"]
+
+[ext_resource type="Texture2D" uid="uid://blh1n6y3n0h2m" path="res://Assets/frames/hidden_frame_blank.png" id="1_dtpqw"]
+
+[node name="MemoryTile" type="TextureButton"]
+texture_normal = ExtResource("1_dtpqw")
